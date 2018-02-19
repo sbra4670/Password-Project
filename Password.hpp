@@ -26,6 +26,7 @@ int enterPassword()
         cin >> input;
         cout << "Try one last time:" << endl;
         cin >> input;
+        cout << "You have attempted to enter the password too many times" << endl;
     }
 }
 
