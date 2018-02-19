@@ -16,12 +16,16 @@ int enterPassword()
 
     if(input == Password)
     {
-       cout << "Access Granted." << endl; 
+       cout << "Access Granted." << endl;
     }
 
     if (input != Password)
     {
         cout << "Access Denied." << endl;
+        cout << "Try Again:"<< endl;
+        cin >> input;
+        cout << "Try one last time:" << endl;
+        cin >> input;
     }
 }
 
